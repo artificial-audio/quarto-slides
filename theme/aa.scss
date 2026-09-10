@@ -1,0 +1,65 @@
+/*-- scss:defaults --*/
+$body-bg: #ffffff;
+$body-color: #142e42;
+$link-color: #087f8c;
+$font-family-sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$presentation-font-size-root: 38px;
+$presentation-heading-color: #07334e;
+$presentation-heading-font-weight: 600;
+$presentation-h1-font-size: 2.4em;
+$presentation-h2-font-size: 1.65em;
+$presentation-h3-font-size: 1.05em;
+
+/*-- scss:rules --*/
+.reveal .slides { text-align: left; }
+
+.reveal .slides > section {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 64px 80px;
+}
+
+.reveal h2 { margin: 0 0 0.85em; }
+.reveal h3 { color: #087f8c; margin: 0 0 0.8em; }
+.reveal ul { margin-left: 1.05em; }
+.reveal li { padding-left: 0.2em; margin-bottom: 0.65em; line-height: 1.4; }
+.reveal li::marker { color: #087f8c; }
+.reveal li ul { margin-top: 0.45em; font-size: 0.88em; }
+.reveal .columns { justify-content: space-between; gap: 4%; }
+.reveal .column > :first-child { margin-top: 0; }
+
+.reveal .cover {
+  text-align: left;
+  .title-logos { display: flex; align-items: center; gap: 58px; height: 100px; }
+  .title-logos img { width: auto; margin: 0; max-height: none; }
+  .logo-fau { height: 62px; }
+  .logo-lms { height: 74px; }
+  .logo-aa { height: 90px; margin-left: auto !important; }
+  .cover-title { margin-top: 94px; max-width: 1320px; }
+  h1 { line-height: 1.07; letter-spacing: -0.035em; margin: 0; }
+  .subtitle { color: #526879; font-size: 1.1em; margin: 0.65em 0 0; }
+  .cover-details { margin-top: 74px; font-size: 0.7em; color: #526879; }
+  .cover-details p { margin: 0.3em 0; }
+  .author { color: #07334e; font-size: 1.2em; font-weight: 600; }
+  .date { margin-top: 0.8em !important; }
+}
+
+.reveal .slides > section.divider {
+  padding-top: 330px;
+  color: white;
+  h2 { color: white; font-size: 2.6em; letter-spacing: -0.03em; margin: 0 0 0.3em; }
+  p { max-width: 1000px; }
+}
+
+.reveal .slide-number {
+  right: 18px;
+  bottom: 14px;
+  top: auto !important;
+  font: 18px $font-family-sans-serif;
+  color: #526879;
+  background: transparent;
+  padding: 0;
+  a { color: inherit; }
+}
+.reveal.has-dark-background .slide-number,
+.reveal .slide-number.has-dark-background { color: white; }

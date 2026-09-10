@@ -1,0 +1,28 @@
+project:
+  type: default
+  output-dir: _output
+  render: [slides.qmd]
+  resources: [assets/]
+
+format:
+  revealjs:
+    theme: [default, theme/aa.scss]
+    template-partials: [theme/title-slide.html]
+    width: 1600
+    height: 900
+    margin: 0
+    center: false
+    center-title-slide: false
+    slide-level: 2
+    slide-number: c
+    show-slide-number: all
+    controls: false
+    progress: false
+    menu: false
+    transition: none
+    background-transition: none
+    navigation-mode: linear
+    hash: true
+    view-distance: 4
+    pdf-separate-fragments: false
+    embed-resources: true

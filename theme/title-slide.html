@@ -1,0 +1,16 @@
+<section id="$idprefix$title-slide" class="cover">
+  <div class="title-logos">
+    <img src="assets/fau_logo.png" class="logo-fau" alt="FAU Erlangen-Nürnberg">
+    <img src="assets/lms_logo.svg" class="logo-lms" alt="LMS, Chair of Multimedia Communications and Signal Processing">
+    <img src="assets/aa_logo.png" class="logo-aa" alt="Artificial Audio">
+  </div>
+  <div class="cover-title">
+    <h1>$title$</h1>
+    $if(subtitle)$<p class="subtitle">$subtitle$</p>$endif$
+  </div>
+  <div class="cover-details">
+    $for(author)$<p class="author">$author$</p>$endfor$
+    $if(institute)$<p>$institute$</p>$endif$
+    $if(date)$<p class="date">$date$</p>$endif$
+  </div>
+</section>

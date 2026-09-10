@@ -1,0 +1,44 @@
+---
+title: "Your presentation title"
+subtitle: "A short subtitle for your talk"
+author: "Presenter name"
+institute: "Artificial Audio Group · FAU Erlangen-Nürnberg"
+date: today
+date-format: "D MMMM YYYY"
+---
+
+## Section title {.divider background-image="assets/divider.jpg" background-size="cover" background-color="#071b2b" background-opacity="0.5"}
+
+A short introduction to the next part
+
+::: {.notes}
+Replace assets/divider.jpg with your own landscape image. This example is the room rendering from the Artificial Audio website, content/portfolio/RES/featured.jpg. The dark background and image opacity keep the heading readable.
+:::
+
+## Single column
+
+- The main idea belongs in the first bullet
+- A second point adds the supporting detail
+  - One short subpoint when it helps
+- **Emphasis** highlights the key phrase
+- A final point closes the thought
+
+## Two columns
+
+:::: {.columns}
+::: {.column width="47%"}
+### First topic
+
+- One clear point per bullet
+- Supporting detail stays brief
+- A final observation
+:::
+
+::: {.column width="47%"}
+### Second topic
+
+- A parallel idea or comparison
+- **Emphasis** for the key phrase
+- A final observation
+:::
+::::
