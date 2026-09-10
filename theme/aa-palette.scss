@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+// Representative colors sampled from assets/aa_logo.png.
+$aa-navy: #083959 !default;
+$aa-cream: #fcf5ed !default;
+$aa-teal: #2d9f84 !default;
+$aa-orange: #f57f33 !default;
+$aa-coral: #df514d !default;
+$aa-blue: #22669f !default;
+$aa-purple: #655485 !default;
+// Darker variants for small text on cream.
+$aa-link: mix($aa-navy, $aa-teal, 40%) !default;
+$aa-muted: mix($aa-navy, $aa-cream, 75%) !default;
+
+/*-- scss:rules --*/
+:root {
+  --aa-navy: #{$aa-navy};
+  --aa-cream: #{$aa-cream};
+  --aa-teal: #{$aa-teal};
+  --aa-orange: #{$aa-orange};
+  --aa-coral: #{$aa-coral};
+  --aa-blue: #{$aa-blue};
+  --aa-purple: #{$aa-purple};
+  --aa-link: #{$aa-link};
+  --aa-muted: #{$aa-muted};
+}

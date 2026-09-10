@@ -6,7 +6,7 @@ project:
 
 format:
   revealjs:
-    theme: [default, theme/aa.scss]
+    theme: [default, theme/aa.scss, theme/aa-palette.scss]
     template-partials: [theme/title-slide.html]
     width: 1600
     height: 900
